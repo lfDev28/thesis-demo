@@ -1,0 +1,12 @@
+/* The below will always have a yellow linting below it due to the lint rules, 
+you are safe to ignore this as long as the Tailwind CSS module is installed in node modules,
+and this file is imported at the root of the application */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body, #root {
+    background-color: var(--background-color);
+}
